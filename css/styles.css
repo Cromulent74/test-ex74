@@ -1,0 +1,93 @@
+/* Styles of all elements */
+
+* {
+    box-sizing: border-box;
+}
+
+/* Styles of body's tag */
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: #333;
+    font-size: 15px;
+}
+
+/* Style of all tables */
+
+table {
+    border: 1px solid #333;
+    
+    width: 60%;
+    
+    border-collapse: collapse;
+}
+th, td {
+    text-align: center;
+    
+    border: 1px solid #333;
+    
+    padding: 10px;
+}
+th {
+    font-weight: 600;
+    
+    background-color: #ddd;
+}
+
+/* Styles of all containers */
+
+.container {
+    max-width: 1000px;
+    
+    padding: 0 20px;
+    margin: 0 auto;
+}
+
+/* Styles of info block */
+
+.info-wrapper {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    
+    width: 100%;
+}
+.info-img {
+    width: 20%;
+}
+.info {
+    margin-left: 20px;
+    
+    width: 100%;
+}
+.info__list {
+    padding-left: 0;
+}
+.info__item {
+    text-align: justify;
+    list-style: none;
+    
+    margin-bottom: 10px;
+}
+.info__item:last-child {
+    margin-bottom: 0;
+}
+.info__item_important {
+    font-weight: 600;
+}
+.info__item_link {
+    color: blue;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+/* Styles for table about programm languages */
+
+.prom-lang__cell-title {
+    font-weight: 600;
+    
+    background-color: #eee;
+}
+th.prom-lang__cell-title {
+    background-color: #ddd;
+}
